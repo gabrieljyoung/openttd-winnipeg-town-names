@@ -1,6 +1,6 @@
 ##grflangid 0x00
 # English US language file
 
-STR_GRF_NAME					:testing
-STR_GRF_DESC					:testing
+STR_GRF_NAME					:Winnipeg Town Names
+STR_GRF_DESC					:Town names based on streets in Winnipeg, Canada, with random prefixes and suffixes
 STR_STYLES						:Winnipeg
