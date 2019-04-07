@@ -1,0 +1,6 @@
+##grflangid 0x00
+# English US language file
+
+STR_GRF_NAME					:testing
+STR_GRF_DESC					:testing
+STR_STYLES						:Winnipeg

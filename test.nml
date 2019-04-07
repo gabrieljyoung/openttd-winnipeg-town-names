@@ -1,0 +1,269 @@
+grf {
+    grfid: "GY\01\01";
+    name: string(STR_GRF_NAME);
+    desc: string(STR_GRF_DESC);
+    version: 1;
+    min_compatible_version: 0;
+}
+
+
+town_names(base_pfx) {
+	{
+		text("Fort ", 4),
+		text("Mc", 2),
+		text("Mac", 2),
+		text("St. ", 4),
+		text("Fort Mc", 1),
+		text("Fort Mac", 1),
+	}
+}
+
+town_names(base_sfx) {
+	{
+		text(" Park", 1),
+		text(" River", 1),
+		text(" Village", 1),
+		text(" Gate", 1),
+		text(" Gardens", 1),
+		text(" Heights", 1),
+	}
+}
+
+
+town_names(base_names) {
+	{
+		text("Albans", 1),
+		text("Andrew", 1),
+		text("Anne", 1),
+		text("Anthony", 1),
+		text("Boniface", 1),
+		text("Catherine", 1),
+		text("Charles", 1),
+		text("Claire", 1),
+		text("Cross", 1),
+		text("David", 1),
+		text("Dunstans", 1),
+		text("Edmunds", 1),
+		text("Elmo", 1),
+		text("Gabriel", 1),
+		text("George", 1),
+		text("Germain", 1),
+		text("Hilaire", 1),
+		text("James", 1),
+		text("Jean Baptiste", 1),
+		text("John", 1),
+		text("Joseph", 1),
+		text("Louis", 1),
+		text("Luc", 1),
+		text("Mark", 1),
+		text("Martin", 1),
+		text("Mary", 1),
+		text("Matthews", 1),
+		text("Michael", 1),
+		text("Moritz", 1),
+		text("Norbert", 1),
+		text("Pierre", 1),
+		text("Thomas", 1),
+		text("Vital", 1),
+		text("Lagimodière", 1),
+		text("Kenaston", 1),
+		text("Century", 1),
+		text("King Edward", 1),
+		text("Oak Point", 1),
+		text("Brookside", 1),
+		text("Moray", 1),
+		text("William R. Clement", 1),
+		text("Shaftesbury", 1),
+		text("Fermor", 1),
+		text("Bishop Grandin", 1),
+		text("Inkster", 1),
+		text("Pembina", 1),
+		text("Donald", 1),
+		text("Smith", 1),
+		text("Garry", 1),
+		text("Carlton", 1),
+		text("Hargrave", 1),
+		text("Edmonton", 1),
+		text("Vaughan", 1),
+		text("Kennedy", 1),
+		text("York", 1),
+		text("Graham", 1),
+		text("Princess", 1),
+		text("Disraeli", 1),
+		text("Henderson", 1),
+		text("Queen Elizabeth", 1),
+		text("Dakota", 1),
+		text("Dunkirk", 1),
+		text("Osborne", 1),
+		text("Memorial", 1),
+		text("Colony", 1),
+		text("Balmoral", 1),
+		text("Isabel", 1),
+		text("Salter", 1),
+		text("Stafford", 1),
+		text("Academy", 1),
+		text("Sherbook", 1),
+		text("Maryland", 1),
+		text("Portage", 1),
+		text("Roblin", 1),
+		text("Grant", 1),
+		text("Phillips", 1),
+		text("Gillivray", 1),
+		text("Leila", 1),
+		text("Partridge", 1),
+		text("Archibald", 1),
+		text("Watt", 1),
+		text("Redwood", 1),
+		text("Hespeler", 1),
+		text("Johnson", 1),
+		text("Stadacona", 1),
+		text("Nairn", 1),
+		text("Regent", 1),
+		text("Pandora", 1),
+		text("Ravenhurst", 1),
+		text("Logan", 1),
+		text("Dublin", 1),
+		text("Notre Dame", 1),
+		text("Cumberland", 1),
+		text("Pioneer", 1),
+		text("Provencher", 1),
+		text("Waverley", 1),
+		text("Corydon", 1),
+		text("Marion", 1),
+		text("Goulet", 1),
+		text("Dugald", 1),
+		text("Jubilee", 1),
+		text("Wilkes", 1),
+		text("Sterling Lyon", 1),
+		text("Taylor", 1),
+		text("Harrow", 1),
+		text("Wellington", 1),
+		text("Stradbrook", 1),
+		text("Mayfair", 1),
+		text("Assiniboine", 1),
+		text("Tache", 1),
+		text("Des Meurons", 1),
+		text("Elizabeth", 1),
+		text("Maginot", 1),
+		text("Transcona", 1),
+		text("Peguis", 1),
+		text("Talbot", 1),
+		text("Speers", 1),
+		text("Betournay", 1),
+		text("Molson", 1),
+		text("Munroe", 1),
+		text("Raleigh", 1),
+		text("Means", 1),
+		text("Kildare", 1),
+		text("Victoria", 1),
+		text("Leod", 1),
+		text("Rothesay", 1),
+		text("Kimberly", 1),
+		text("Templeton", 1),
+		text("Jefferson", 1),
+		text("Gregor", 1),
+		text("Arlington", 1),
+		text("Keewatin", 1),
+		text("Selkirk", 1),
+		text("Dufferin", 1),
+		text("Erin", 1),
+		text("Ellice", 1),
+		text("Ness", 1),
+		text("Sturgeon", 1),
+		text("Hamilton", 1),
+		text("Saskatchewan", 1),
+		text("Winnipeg", 1),
+		text("Westwood", 1),
+		text("Charleswood", 1),
+		text("Elmhurst", 1),
+		text("Lindenwood", 1),
+		text("Scurfield", 1),
+		text("Chevrier", 1),
+		text("Bairdmore", 1),
+		text("Dalhousie", 1),
+		text("Chancellor Matheson", 1),
+		text("Bison", 1),
+		text("Warde", 1),
+		text("Aldgate", 1),
+		text("Novavista", 1),
+		text("Southglen", 1),
+		text("Vista", 1),
+		text("Shorehill", 1),
+		text("De la Seigneurie", 1),
+		text("Meadowwood", 1),
+		text("Enfield", 1),
+		text("Lakewood", 1),
+		text("Drake", 1),
+		text("Harkness", 1),
+		text("Westminster", 1),
+		text("Tuxedo", 1),
+		text("Kelvin", 1),
+		text("Churchill", 1),
+		text("Grant Park", 1),
+		text("Sisler", 1),
+		text("Béliveau", 1),
+		text("J.H. Bruns", 1),
+		text("Richmond", 1),
+		text("Vincent Massey", 1),
+		text("John's Ravenscourt", 1),
+		text("Tec Voc", 1),
+		text("Arbour Meadow", 1),
+		text("Gordon Bell", 1),
+		text("Bannatyne", 1),
+		text("Dermot", 1),
+		text("Lombard", 1),
+		text("Market", 1),
+		text("Pacific", 1),
+		text("Waterfront", 1),
+		text("La Vérendrye", 1),
+		text("Valour", 1),
+		text("Rouge", 1),
+		text("Windsor", 1),
+		text("Southdale", 1),
+		text("Empress", 1),
+	}
+}
+
+town_names(base_names_wpfx) {
+	{
+		town_names(base_pfx, 1)
+	}
+	{
+		town_names(base_names, 1)
+	}
+}
+
+town_names(base_names_wsfx) {
+	{
+		town_names(base_names, 1),
+	}
+	{
+		town_names(base_sfx, 1),
+	}
+}
+
+town_names(base_names_wpsfx) {
+	{
+		town_names(base_pfx, 1)
+	}
+	{
+		town_names(base_names, 1)
+	}
+	{
+		town_names(base_sfx, 1),
+	}
+}
+
+
+town_names(title_names) {
+	styles: string(STR_STYLES);
+	{
+		town_names(base_names_wpfx,2),
+		town_names(base_names_wsfx,2),
+		town_names(base_names_wpsfx,1),
+		town_names(base_names,5),
+	}
+}
+
+
+
