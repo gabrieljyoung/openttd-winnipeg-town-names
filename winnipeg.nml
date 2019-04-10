@@ -227,7 +227,7 @@ town_names(base_names) {
 		text("J.H. Bruns", 1),
 		text("Richmond", 1),
 		text("Vincent Massey", 1),
-		text("John's Ravenscourt", 1),
+		text("St. John's Ravenscourt", 1),
 		text("Tec Voc", 1),
 		text("Arbour Meadow", 1),
 		text("Gordon Bell", 1),
@@ -281,9 +281,9 @@ town_names(title_names) {
 	styles: string(STR_STYLES);
 	{
 		town_names(base_names_wpfx,1),
-		town_names(base_names_wsfx,4),
+		town_names(base_names_wsfx,10),
 		town_names(base_names_wpsfx,1),
-		town_names(base_names,16),
+		town_names(base_names,50),
 	}
 }
 
