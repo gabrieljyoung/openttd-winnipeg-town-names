@@ -281,7 +281,7 @@ town_names(base_names) {
 		text("Airlies", 1),
 		text("Euclid", 1),
 		text("Scotia", 1),
-		text("Valour"), 1),
+		text("Valour", 1),
 		text("Whittier", 1),
 		text("Glenlawn", 1),
 		text("Riel", 1),
@@ -335,7 +335,7 @@ town_names(base_names) {
 
 town_names(base_names_wpfx) {
 	{
-		town_names(base_pfx, 1)
+		town_names(prefix, 1)
 	}
 	{
 		town_names(base_names, 1)
@@ -347,19 +347,19 @@ town_names(base_names_wsfx) {
 		town_names(base_names, 1),
 	}
 	{
-		town_names(base_sfx, 1),
+		town_names(suffix, 1),
 	}
 }
 
 town_names(base_names_wpsfx) {
 	{
-		town_names(base_pfx, 1)
+		town_names(prefix, 1)
 	}
 	{
 		town_names(base_names, 1)
 	}
 	{
-		town_names(base_sfx, 1),
+		town_names(suffix, 1),
 	}
 }
 
